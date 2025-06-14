@@ -1,0 +1,62 @@
+# === Node.js / Vue 前端相关 ===
+node_modules/
+dist/
+*.log
+.env.local
+.env.*.local
+
+# Vite / Webpack 等缓存
+.vite/
+.cache/
+*.temp
+
+# === Python / Flask / FastAPI 后端相关 ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.pot
+*.pyc
+
+# Poetry / Pipenv / venv
+.poetry/
+pip-wheel-metadata/
+env/
+venv/
+ENV/
+.venv/
+
+# 环境变量
+.env
+.env.*
+
+# IDE / 编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS系统文件
+.DS_Store
+Thumbs.db
+
+# pytest, coverage
+.cache/
+.coverage
+htmlcov/
+.tox/
+
+# mypy / pylint / pyright
+.mypy_cache/
+.pyright/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tailwind / PostCSS / build
+*.css.map
+
+# === Git文件夹保护 ===
+!.gitignore
