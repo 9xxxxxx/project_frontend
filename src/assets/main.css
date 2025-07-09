@@ -1,20 +1,32 @@
 @import './base.css';
+@import "tailwindcss";
+
+/* @import "tailwindcss/preflight" */
+/* @tailwind utilities; */
 
 
+body {
+  background: linear-gradient(to bottom, #2196f3, #52f887);
+  height: 100%;
+  margin: 0;
+
+}
 
 #app {
+  min-height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  /* background: linear-gradient(to top, #2196f3, #52f887); */
 }
 
-a,
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
   padding: 3px;
+ 
 }
 
 @media (hover: hover) {
@@ -23,7 +35,7 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   body {
     display: flex;
     place-items: center;
@@ -34,4 +46,4 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
-}
+} */
